@@ -1,0 +1,19 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rhdh_test_ahart_2.ahart_testing_collection_2
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: alisonlhart/rhdh-test-ahart-10
+  links:
+    - url: https://devspaces.apps.ansible-rhdh-dev.testing.ansible.com/#https://github.com/alisonlhart/rhdh-test-ahart-10
+      title: Open Ansible project in OpenShift Dev Spaces
+      icon: web
+spec:
+  type: collection-project
+  lifecycle: production
+  owner: alisonlhart
